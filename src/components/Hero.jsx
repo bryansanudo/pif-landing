@@ -30,7 +30,7 @@ const Hero = () => {
       /> */}
 
       <div className="">
-        <div className="max-w-xl font-light text-gray-500 mb-10 gap-5 flex flex-col my-8 ">
+        <div className="max-w-xl font-light text-gray-500 mb-10 gap-5 flex flex-col my-24 ">
           <article className="flex flex-col md:flex-row  items-center gap-5">
             <TbPigMoney className="text-3xl" />
             9/10 Personas mejoran sus ingresos y ahorran
@@ -51,11 +51,11 @@ const Hero = () => {
           className=" h-[280px] w-full md:h-[400px] object-cover object-top bg-gradient-to-b from-[#29A52D] rounded-xl mb-20"
         />
         <a
-          href="/hdvBryanEng.pdf"
+          href="https://pif-firebase.vercel.app/"
           download={true}
           className="flex items-center justify-center  bg-gradient-to-r from-[#182C60] to-[#ffd7d7] text-white py-2 rounded-lg mb-10 hover:scale-110 duration-300"
         >
-          Resume
+          Registrate gratis
         </a>
       </div>
     </motion.section>

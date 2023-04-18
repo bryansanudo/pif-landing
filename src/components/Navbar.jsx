@@ -26,7 +26,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
   return (
     <>
-      <div className="fixed w-full h-16 bg-gray-900 text-white z-20  ">
+      <div className="fixed w-full h-32 bg-gray-900 text-white z-20  ">
         <div className="flex justify-between  md:gap-5 items-center max-w-screen-xl mx-auto px-8 h-full">
           <div className="hidden lg:flex items-center">
             <ul className="flex ">
@@ -48,13 +48,18 @@ const Navbar = ({ darkMode, setDarkMode }) => {
           </div>
 
           <div className="flex items-center flex-row justify-center gap-2 ">
-            <a href="#">
-              <span className="hover:text-[#ffd7d7] duration-300">Logo</span>
+            <a
+              href="#"
+              className="hover:text-[#ffd7d7] hover:scale-105  duration-300"
+            >
+              Logo App
             </a>
-            <a href="#">
-              <span className="hover:text-[#ffd7d7] duration-300">
-                Logo poli
-              </span>
+            <a href="https://pifsantiagoisabellabryan.vercel.app/">
+              <img
+                src="/logoPoli.svg"
+                alt=""
+                className="rounded-full object-contain hover:scale-105   md:h-24 md:w-24 h-20 w-20  duration-300    "
+              />
             </a>
           </div>
         </div>
